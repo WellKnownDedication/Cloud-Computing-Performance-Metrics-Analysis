@@ -2,6 +2,14 @@
  
  This is a repo dedicated to exploratory data analysis of a dataset about CC performance metrics. 
 
+ 
+ # How to set up
+
+ ### Linux
+ - Clone the repo.
+ - Give execution permission to both .sh files.
+ - Run "venv_setup.sh"
+
 
 # Sources
 
