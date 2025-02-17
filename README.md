@@ -7,10 +7,10 @@
 
  ### Linux
  - Clone the repo.
- - Give execution permission to both .sh files.
+ - Give execution permission to both .sh files.S
  - Run "venv_setup.sh"
 
 
 # Sources
 
-1) Cloud Computing Performance Metrics, Abdur Raziq Khan: https://www.kaggle.com/datasets/abdurraziq01/cloud-computing-performance-metrics
+1) Large-Scale Vehicular Fog Computing Dataset, Majdi Sukkar: https://www.kaggle.com/datasets/majdmustafa/large-scale-vehicular-fog-computing-dataset?select=large_synthetic_tasks.csv
