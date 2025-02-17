@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-VENV_DIR="venv"
+VENV_DIR="pvenv"
 REQUIREMENTS="requirements.txt"
 
 #Download dataset
@@ -9,12 +9,13 @@ source scripts/data_download.sh
 if [ -d $VENV_DIR ] && [ -f "$VENV_DIR/bin/activate" ]
 then
     echo "Venv already exists."
-    exit 0
+else
+    echo "Venv not found! Creating..."
+    #Create venv
+    python3 -m venv $VENV_DIR
 fi
 
-echo "Venv not found! Creating..."
-#Create and activate venv
-python3 -m venv $VENV_DIR
+#Activate and update venv
 source $VENV_DIR/bin/activate
 pip install --upgrade pip
 
@@ -23,7 +24,7 @@ if [ -f "requirements.txt" ]
 then
     pip install -r requirements.txt
 else    
-    echo "No requirements.txt found
+    echo "No requirements.txt found"
     exit 1
 fi
 

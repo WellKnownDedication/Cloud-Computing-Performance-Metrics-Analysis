@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 # Set variables
 DATASET="abdurraziq01/cloud-computing-performance-metrics"
 DEST_DIR="data"
@@ -25,4 +23,5 @@ if [ ! -d "$DEST_DIR" ] || [ -z "$(ls -A $DEST_DIR)" ]; then
 else
     echo "Dataset already exists at $DEST_DIR."
 fi
+
 
