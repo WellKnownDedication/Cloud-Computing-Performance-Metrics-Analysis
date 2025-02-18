@@ -13,4 +13,4 @@
 
 # Sources
 
-1) Large-Scale Vehicular Fog Computing Dataset, Majdi Sukkar: https://www.kaggle.com/datasets/majdmustafa/large-scale-vehicular-fog-computing-dataset?select=large_synthetic_tasks.csv
+1) Majdi Sukkar. (2024). Vehicular Fog Computing Dataset. Kaggle.: https://www.kaggle.com/datasets/majdmustafa/large-scale-vehicular-fog-computing-dataset?select=large_synthetic_tasks.csv
