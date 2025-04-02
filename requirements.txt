@@ -4,3 +4,6 @@ pandas
 matplotlib
 seaborn
 kagglehub
+scipy
+scikit-learn
+statsmodels
